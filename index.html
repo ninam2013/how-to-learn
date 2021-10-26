@@ -22,16 +22,15 @@
     <main class="content">
       <section class="description">
         <div class="two-columns">
-          <div class="two-columns__brief">
-            <h2 class="two-columns__brief_title">Главные проблемы в обучении</h2>
-          </div>
+          <h2 class="two-columns__brief two-columns__brief_title">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать
               материал. Мы готовимся к экзаменам и учим билеты.
               Мы тренируемся решать однообразные задачи, чтобы лучше сдать тест, но часто в итоге это не дает нам
               реального знания. Зубрежка быстро выветривается и не приносит пользы.
             </p>
-            <p class="two-columns__paragraph"><b>Вывод:</b> учиться тоже нужно уметь,
+            <p class="two-columns__paragraph"><span class="two-columns__span-accent">Вывод:</span> учиться тоже нужно
+              уметь,
               но почему-то этому мало где учат. Что с этим делать?
             </p>
             <p class="two-columns__paragraph"> Конкретные техники и упражнения
@@ -44,7 +43,7 @@
 
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
-        <h3 class="section-subtitle">Про учёбу и мозг</h3>
+        <p class="section-subtitle">Про учёбу и мозг</p>
 
         <ul class="table">
           <li class="table__cell">
@@ -89,13 +88,13 @@
 
       <section class="feynman">
         <h2 class="feynman__title">Метод Феймана</h2>
-        <h3 class="feynman__subtitle">Выучить и не забыть</h3>
+        <p class="feynman__subtitle">Выучить и не забыть</p>
         <a class="feynman__link main-link" href="#">Подробнее</a>
       </section>
 
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
-        <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
+        <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
 
         <ul class="table table_theme_dark">
 
@@ -147,34 +146,28 @@
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column footer__column_content_copyright">
-          <img class="logo_place_footer" src="./images/logo_place_footer.svg" alt="логотип Яндекс Практикум">
+          <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="логотип Яндекс Практикум">
           <p class="footer__autor">&copy;2021.Евгений Манин</p>
         </div>
-        <div class="footer__column footer__column_content_info">
-          <div class="footer__column-heading">О практикуме</div>
-          <div class="footer__column-links">
-            <a class="footer__column-link" href="#">Главная</a>
-            <a class="footer__column-link" href="#">Концепция</a>
-            <a class="footer__column-link" href="#">Наставники</a>
-          </div>
-        </div>
-        <div class="footer__column footer__column_content_social">
-          <div class="footer__column-heading">Соцсети</div>
-          <a class="footer__column-link " href="#">
-            <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="иконка Facebook">
-            <span class="footer__column-text">Facebook</span>
-          </a>
-
-          <a class="footer__column-link " href="#">
-            <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="иконка ВКонтакте">
-            <span class="footer__column-text">ВКонтакте</span>
-          </a>
-
-          <a class="footer__column-link" href="#">
-            <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="иконка Instagram">
-            <span class="footer__column-text">Instagram</span>
-          </a>
-        </div>
+        <nav class="footer__column footer__column_content_info">
+          <h3 class="footer__column-heading">О практикуме</h3>
+          <ul class="footer__column-links">
+            <li><a class="footer__column-link" href="#">Главная</a></li>
+            <li><a class="footer__column-link" href="#">Концепция</a></li>
+            <li><a class="footer__column-link" href="#">Наставники</a></li>
+          </ul>
+        </nav>
+        <nav class="footer__column footer__column_content_social">
+          <h3 class="footer__column-heading">Соцсети</h3>
+          <ul class="footer__column-links">
+            <li><a class="footer__column-link" href="#"><img class="footer__social-icon"
+                  src="./images/facebook_color_white.svg" alt="иконка Facebook">Facebook</a></li>
+            <li><a class="footer__column-link" href="#"><img class="footer__social-icon"
+                  src="./images/vk_color_white.svg" alt="иконка ВКонтакте">ВКонтакте</a></li>
+            <li><a class="footer__column-link" href="#"><img class="footer__social-icon"
+                  src="./images/instagram_color_white.svg" alt="иконка Instagram">Instagram</a></li>
+          </ul>
+        </nav>
       </div>
     </footer>
   </div>
