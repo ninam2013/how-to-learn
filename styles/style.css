@@ -52,6 +52,7 @@
   font-weight: normal;
   margin: 0;
   padding: 0;
+  z-index: 3;
 }
 
 .header__link {
@@ -109,9 +110,6 @@
 
 .two-columns__brief {
   width: 175px;
-}
-
-.two-columns__brief_title {
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
@@ -240,6 +238,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  color: #2f80ed;
 }
 
 .feynman__link::after {
@@ -301,6 +300,7 @@
   background-color: #1f1f1f;
   padding: 60px 0 40px 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .footer__columns {
