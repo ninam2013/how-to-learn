@@ -1,0 +1,17 @@
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  font-size: 36px;
+  line-height: 51px;
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.feynman__link::after {
+  content: "→";
+  padding-left: 7px;
+}
