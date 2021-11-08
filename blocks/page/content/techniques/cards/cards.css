@@ -1,0 +1,14 @@
+.cards {
+  width: 920px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 240px);
+  grid-gap: 0 100px;
+}
+
+  /* вариант кода c использованием flex */
+/* .cards {
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 100px;
+} */

@@ -1,0 +1,12 @@
+.square-pic__rotation {
+  animation: ere 20s linear 0s infinite;
+}
+
+ @keyframes ere {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
