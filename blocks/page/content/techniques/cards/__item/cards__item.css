@@ -1,5 +1,7 @@
 .cards__item {
-
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* вариант кода использования flex */
