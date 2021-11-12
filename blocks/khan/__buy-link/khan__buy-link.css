@@ -5,7 +5,7 @@
   line-height: 42px;
   font-weight: normal;
   margin: 0;
-  padding: 0 0 0 48px;
+  padding: 0;
   align-self: baseline;
 }
 .khan__buy-link::after {

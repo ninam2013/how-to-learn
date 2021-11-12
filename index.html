@@ -19,9 +19,7 @@
       <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
-      <!-- так как padding-top: 100px повторяется во многих блоках, я сделал отдельный блок padding-top-100 и применил его в разных блоках.
-        Но можно было сделать в каждом блоке модификатор, но это на мой взгляд не эффективно  -->
-      <section class="description padding-top-100">
+      <section class="description padding-top">
         <div class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
@@ -41,50 +39,49 @@
           </div>
         </div>
       </section>
-      <section class="techniques padding-top-100">
+      <section class="techniques padding-top">
         <h2 class="section-title">Техники обучения</h2>
         <p class="section-subtitle">Пять практик от Барбары Оакли</p>
         <ul class="cards">
           <li class="cards__item">
             <img class="cards__image" src="./images/cards-attention.png" alt="руки держат книгу.">
-            <h4 class="cards__title">Два вида внимания</h4>
+            <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное
               мышление.</p>
           </li>
 
           <li class="cards__item">
             <img class="cards__image" src="./images/cards-recall.png" alt="задумчивая статуя мальчика.">
-            <h4 class="cards__title">Recall</h4>
+            <h3 class="cards__title">Recall</h3>
             <p class="cards__description">Вспоминайте изученное – это позволит соединить разрозненные порции памяти.</p>
           </li>
 
           <li class="cards__item">
             <img class="cards__image" src="./images/cards-interliving.png" alt="Сцена с людьми.">
-            <h4 class="cards__title">Интерливинг</h4>
+            <h3 class="cards__title">Интерливинг</h3>
             <p class="cards__description">Изучайте несколько навыков одновременно, они обогощают друг друга.</p>
           </li>
 
           <li class="cards__item">
             <img class="cards__image" src="./images/cards-question.png" alt="белое помещение с высокими стенами.">
-            <h4 class="cards__title">Вопросы</h4>
+            <h3 class="cards__title">Вопросы</h3>
             <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно
               волнует.</p>
           </li>
 
           <li class="cards__item">
             <img class="cards__image" src="./images/cards-competence.png" alt="рука держит несколько книг.">
-            <h4 class="cards__title">Иллюзия компетентности</h4>
+            <h3 class="cards__title">Иллюзия компетентности</h3>
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы
               владеете новой темой.</p>
           </li>
         </ul>
       </section>
 
-      <section class="video padding-top-100">
+      <section class="video padding-top">
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="iframe-wrap">
-          <!-- обертка - чтобы можно было сместить вниз iframe -->
+        <div class="video__iframes">
           <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen></iframe>
@@ -111,12 +108,12 @@
         </div>
       </section>
 
-      <section class="feynman padding-top-100">
+      <section class="feynman padding-top">
         <h2 class="feynman__title">Метод Феймана</h2>
         <p class="feynman__subtitle">Выучить и не забыть</p>
         <a class="feynman__link main-link" href="#">Подробнее</a>
       </section>
-      <section class="digits padding-top-100">
+      <section class="digits padding-top">
         <h2 class="section-title">Цифры и факты</h2>
         <p class="section-subtitle">Про учёбу и мозг</p>
 
@@ -164,17 +161,15 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир – школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллиона
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллиона
             студентов по всему миру. Книгу «Весь мир – школа»
             нужно прочитать всем, кто занимается образованием – так учащиеся повсюду смогут получить навыки и знания,
             которые приносят успех в школе, карьере и жизни.
-          </p>
+          </blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
-            <div class="khan__book-pic">
-              <img src="./images/khan-book.jpg" alt="картинка обложки книги">
-            </div>
+            <img class="khan__book-pic" src="./images/khan-book.jpg" alt="картинка обложки книги">
             <a class="khan__buy-link main-link" href="#">Купить книгу</a>
           </div>
         </div>
@@ -229,18 +224,18 @@
         </ul>
         <div class="kaufman__triangle rotation"></div>
       </section>
-      <section class="resources padding-top-100">
+      <section class="resources padding-top">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обочения</p>
         <div class="resources__logo-zone">
-          <a class="main-link" href="#"><img class="resources__logo" src="./images/logo/resources-arzamas.svg"
-              alt="ссылка c логотипом arzamas"></a>
-          <a class="main-link" href="#"><img class="resources__logo" src="./images/logo/resources-n1.svg"
-              alt="ссылка c логотипом n1"></a>
-          <a class="main-link" href="#"><img class="resources__logo" src="./images/logo/resources-strelka.svg"
-              alt="ссылка c логотипом strelka"></a>
-          <a class="main-link" href="#"><img class="resources__logo" src="./images/logo/resources-polka.svg"
-              alt="ссылка c логотипом polka"></a>
+          <a class="main-link" href="#" target="_blank"><img class="resources__logo"
+              src="./images/logo/resources-arzamas.svg" alt="логотип arzamas"></a>
+          <a class="main-link" href="#" target="_blank"><img class="resources__logo"
+              src="./images/logo/resources-n1.svg" alt="логотип n1"></a>
+          <a class="main-link" href="#" target="_blank"><img class="resources__logo"
+              src="./images/logo/resources-strelka.svg" alt="логотип strelka"></a>
+          <a class="main-link" href="#" target="_blank"><img class="resources__logo"
+              src="./images/logo/resources-polka.svg" alt="логотип polka"></a>
         </div>
       </section>
     </main>
