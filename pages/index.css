@@ -25,8 +25,8 @@
 @import url(../blocks/cards/__title/cards__title.css);
 @import url(../blocks/cards/__description/cards__description.css);
 @import url(../blocks/video/video.css);
-@import url(../blocks/video__iframes/video__iframes.css);
-@import url(../blocks/video__iframes/__iframe/video__iframe.css);
+@import url(../blocks/__iframes/video__iframes.css);
+@import url(../blocks/__iframe/video__iframe.css);
 @import url(../blocks/oakley/oakley.css);
 @import url(../blocks/feynman/feynman.css);
 @import url(../blocks/feynman/__title/feynman__title.css);
@@ -65,7 +65,7 @@
 @import url(../blocks/footer/__column/_content/footer__column_content_info.css);
 @import url(../blocks/footer/__column/_content/footer__column_content_social.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
-@import url(../blocks/footer/__autor/footer__autor.css);
+@import url(../blocks/footer/);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
